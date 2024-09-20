@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv('c:\\Users\\Lenovo\\OneDrive - American University of Beirut\\Desktop\\MSBA 325\\Assignment\\Assignment 1\\health_resouces.csv')
+df = pd.read_csv('health_resouces.csv')
 
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Select a page:", ["Description", "Visualizations"])
