@@ -56,6 +56,26 @@ if page == "Description":
 
   The column **refArea** was engineered to contain only the name of the area without the entire link for easier visualization.
   """)
+  
+  st.subheader("Description of the Visualizations")
+  st.write("### 1. Line Chart: Availability of Medical Resources by Region")
+  st.write(""" **Goal**: This line chart is designed to help users explore the availability of medical resources such as hospitals, clinics, and labs across various regions. It provides a comparative view 
+  of how different types and sizes of medical facilities are distributed across each region.
+  """)
+  st.write(""" **Interactivity**: 
+  - Users can select the types of medical resources to display from a dropdown menu, including hospitals, clinics, and labs.
+  - The line chart allows users to compare the availability of different resource types side by side across each region.
+  - The chart dynamically updates based on the user's selection, providing a clear and interactive way to assess the number of resources in each category by region.
+  """)
+
+  st.write("### 2. Pie Chart: Percentage of Towns with Special Needs Individuals")
+  st.write(""" **Goal**: This pie chart gives a high-level breakdown of the percentage of towns with individuals who have special needs and the proportion of them that can provide for them. 
+  Therefore, it allows users to quickly grasp the proportion of towns that provide support for people with special needs compared to those that do not.
+  """)
+  st.write(""" **Interactivity**:
+  - Users can choose between different metrics from a dropdown menu, such as the percentage of towns with special needs individuals or the existence of special needs care centers.
+  - The pie chart dynamically updates based on the user’s selection, providing a visual representation of the distribution of special needs support across towns.
+  """)
 
 elif page == "Visualizations":
   st.markdown("<h1 style='text-align: center;'>Healthcare Resources Visualization</h1>", unsafe_allow_html=True)
